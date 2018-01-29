@@ -1,0 +1,19 @@
+body {
+	height: 100%;
+	margin: 0px;
+}
+.container {
+	display: grid;
+	height: 100%;
+	grid-template-columns: auto 958px auto;
+	grid-template-rows: 1fr 1fr;
+	grid-template-areas:
+	". scrlpho ."
+	". info .";
+}
+.scrlPho {
+	grid-area: scrlpho;
+}
+.info {
+	grid-area: info;
+}
