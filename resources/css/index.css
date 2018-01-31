@@ -5,7 +5,30 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	background-color: #0d0d0d;
+}
+.line {
+	background-color: #b2393b;
+	height: 2px;
+	width: 200px;
+	animation-name: lineAnimation;
+	animation-duration: 2s;
+}
+@keyframes lineAnimation {
+	from{width:0px;}
+	to{width:200px;}
 }
 .title {
 	margin: 0px;
+	font-family: 'Montserrat', sans-serif;
+	color: #b2393b;
+}
+.blurb {
+	font-family: 'Montserrat', sans-serif;
+	color: #b2393b;
+}
+.button {
+	width: 200px;
+	font-family: 'Montserrat', sans-serif;
+	color: #b2393b;
 }
