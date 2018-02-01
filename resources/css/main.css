@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+* {
+	font-family: 'Montserrat', sans-serif;
+}
 body, html {
 	height: 100%;
 	margin: 0px;
@@ -10,8 +14,11 @@ body, html {
 	display: flex;
 	justify-content: center;
 	border: 1px solid #b2393b;
+	color: #b2393b;
+	background: transparent;
+	text-decoration: none;
 }
-.button:hover{
+.button:hover, .button:focus {
 	background-color: #b2393b;
 	color: black;
 }
